@@ -1,7 +1,7 @@
-cd32401f16e012c82b3c6c65cae1ef4c *DESCRIPTION
+a39e59eb58546e7aac53d60daf3c87b6 *DESCRIPTION
 9d7364a958b3a6fa3968ea5be4b3e2f0 *LICENSE
-5a6a9458b93957f004938caba1acdbed *NAMESPACE
-9d921c8dfe55dd9b4f4f9b6cf2c70464 *NEWS.md
+eb81855e129e5ac306f59c1ed4bd98c2 *NAMESPACE
+7619f9c9768c25926f81ee7392062eca *NEWS.md
 ac58386712835845c986b2a439d76429 *R/A_limiting.R
 dc627fb1f34df35e6bf29cabf7a20148 *R/PhotoGEA_example_file_path.R
 04ce954be606c1cac39923ec2dfd9298 *R/apply_gm.R
@@ -33,7 +33,7 @@ d9c44fe87ea22a9c76405c6fb5c48023 *R/calculate_total_pressure.R
 d040856cf7f8f87c5d86572811bb5625 *R/calculate_wue.R
 f10466535c41f9dec9683f2a2e6a35fe *R/check_optional_arguments.R
 4b0ccf23fd0d387e84832c2fc59528e0 *R/check_required_variables.R
-22821a8898ec29a0311fa0507d34bcce *R/check_response_curve_data.R
+577c4def933a1f84bb7f5d7f53b9cc9b *R/check_response_curve_data.R
 6e1d0d9e2f1260c1ddef5d9a41700813 *R/choose_input_files.R
 94281cb54b1cb656f6cc675908a4fc3d *R/choose_input_licor_files.R
 ba224134a0d55b1fbf1011a2203dcf11 *R/choose_input_tdl_files.R
@@ -54,7 +54,7 @@ af10c7265d9732ed4a41d8fdbe671e1b *R/error_function_c4_aci_hyperbola.R
 a36e4d8a11eff0953f1d3edfd67b148c *R/estimate_licor_variance.R
 26de2fe55130cb5dba4d2066efb41703 *R/estimate_operating_point.R
 8d92fb7626a977b47bb90f37ba474b1d *R/exclude_outliers.R
-6835fbdfcc9f21232b58378c20a1abd2 *R/exdf.R
+f3422bb62132dfa389f83205729b3e93 *R/exdf.R
 18ded03021b48847356fba3c990fe157 *R/factorize_id_column.R
 4b2560a9d964d5a75df073f75499962d *R/fit_ball_berry.R
 94dd94e08a86ac359735bb8a7f217279 *R/fit_c3_aci.R
@@ -108,7 +108,7 @@ a007c43c4d2acecb0fcbfc37dfcd5b0a *R/smooth_tdl_data.R
 327814718767da30efd4c147410acf58 *R/unicode_replacements.R
 cca7bb51b05d86ce0c583261a67f8857 *R/unit_dictionary.R
 a9c774ef55da89b881678612d3ef7d0a *R/xyplot_avg_rc.R
-b4522209636757b7a6fa11c0da4d3920 *README.md
+3af152ba88b20f3b7a6c1353422c2b61 *README.md
 1dda19015f0aa969acee990c150e3ac9 *build/partial.rdb
 c92c4fc0cbd97f70c590d1f6af7c3532 *build/vignette.rds
 58a2f4a6d63a770635ffb0bbeb54d3f9 *data/c3_temperature_param_bernacchi.R
@@ -121,7 +121,7 @@ e71960add7bfe188aac1d4abae9f2bc1 *data/jmax_temperature_param_flat.R
 8d2f1d518183d1dd6323da1049a7f234 *inst/CITATION
 f1899f69a1ac1bdce96498315b0174fe *inst/doc/PhotoGEA.R
 bbeb39eb727d6bae394aa57b09d234f8 *inst/doc/PhotoGEA.Rmd
-34927b4712d32f3b855737ab58cad25e *inst/doc/PhotoGEA.html
+52b0760fa37326285ffff72e261f7019 *inst/doc/PhotoGEA.html
 e892ce6de5c82312bfe06e36fad0ae7a *inst/extdata/ball_berry_1.csv
 96b27d46e98e6d1a1d548fa51416bfa9 *inst/extdata/ball_berry_1.xlsx
 a69242767062b2518c0976e6c636900a *inst/extdata/ball_berry_2.xlsx
@@ -230,10 +230,10 @@ adbb72cac59d88dc24d85138ae698f46 *man/plot_laisk_fit.Rd
 cb40477f985345134fc037e6b61d4099 *man/print.exdf.Rd
 b71959050a5cae2d97e67898ed185d03 *man/process_tdl_cycle_erml.Rd
 24c4f63782bf8bee1324350d102e26de *man/process_tdl_cycle_polynomial.Rd
-627ed3b8352ef6b3f2ae4fe2a36eb983 *man/read_cr3000.Rd
+e2bc4dbbc69db90d577736af12a2ee5f *man/read_cr3000.Rd
 0f4b86e45aac4e3783e41eca9f487e95 *man/read_gasex_file.Rd
-cc70fe5e7a7801b78ffebb586daead02 *man/read_licor_6800_Excel.Rd
-181612005b2e160fc361e9710dd17684 *man/read_licor_6800_plaintext.Rd
+11e647381b73c79c256a5e7a9f542ba9 *man/read_licor_6800_Excel.Rd
+b1e2fb947023a9d3035d65c4143906e7 *man/read_licor_6800_plaintext.Rd
 1bf5eae972fbd3c2cc5b6278a01446f5 *man/remove_points.Rd
 989f37e1e39e2a084122086f80c3896a *man/residual_stats.Rd
 a7b47b8e53c56540ae5d42ae3b3bbaa4 *man/set_variable.Rd
@@ -265,7 +265,7 @@ cf6e42d6452a1cced4471cce712dc4e0 *tests/testthat/test-check_required_variables.R
 12bc216fe865e0ecc999c381c3569643 *tests/testthat/test-estimate_operating_point.R
 1df10721523b2718cd2287967cd6b7c4 *tests/testthat/test-exclude_outliers.R
 4e1331696db16ac593559ed6125be6d4 *tests/testthat/test-exdf.R
-7d533d0e71e2240577a8607cbfe37544 *tests/testthat/test-factorize_id_column.R
+2b5a9e5a57c63620ebcc75866c1db33f *tests/testthat/test-factorize_id_column.R
 a58cbbf500129cb58fcdd18ebc2a6ead *tests/testthat/test-fit_ball_berry.R
 2e0c2a7f78be1ebce6debdc8672ffd44 *tests/testthat/test-fit_c3_aci.R
 fcddb4809c1efd30da744bd8ba9d35e8 *tests/testthat/test-fit_c3_variable_j.R
@@ -277,6 +277,7 @@ e78642bff3d04cc89378fa46fd850aec *tests/testthat/test-fit_medlyn.R
 e72e226967a68316b9f10437b074b110 *tests/testthat/test-identify_c3_limiting_processes.R
 607fda7ef32db2d071ea2c17233b97ec *tests/testthat/test-optimizers.R
 56400f337bee0cfa292e0f05f1cd27e1 *tests/testthat/test-organize_response_curve_data.R
+999b05d431fdd24907b068178d5835c5 *tests/testthat/test-rbind.exdf.R
 46b49fd84ceb5172e74d59a75396eed3 *tests/testthat/test-read.csv.exdf.R
 d1e129e784a1cda24122565069ed3d3d *tests/testthat/test-read_gasex_file.R
 c86ed27e85364edd72fbfa860e2eb72e *tests/testthat/test-read_licor_6800_Excel.R
